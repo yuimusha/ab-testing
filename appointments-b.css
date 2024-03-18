@@ -94,8 +94,24 @@
     gap: 10px;
     padding-left: 45%;
 
-.defunct-button, .working-button {
-    background-color: #D4E8FF;
+.defunct-button {
+    background-color: blue;
+    border: none;
+    border-radius: 9px;
+    width: 180px;
+    height: 45px;
+    color: white;
+}
+.defunct-button-s {
+    background-color: blue;
+    border: none;
+    border-radius: 9px;
+    width: 180px;
+    height: 30px;
+    color: white;
+}
+.working-button {
+    background-color: orange;
     border: none;
     border-radius: 9px;
     width: 180px;
@@ -121,7 +137,7 @@
     margin-top: 10px;
     width: 150px;
     border: none;
-    background-color: #D4E8FF;
+    background-color: blue;
     border-radius: 9px;
     padding: 14px 21px 14px 21px;
     color: white;
